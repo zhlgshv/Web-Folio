@@ -136,6 +136,50 @@ button p{
 
 
 
-.steve-coment{
+.about{
+    margin-top: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.steve{
     width: 391px;
+}
+.wave{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.wave a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.steve-coment{
+    margin-top: 115px;
+}
+.steve-coment .app{
+    margin: 23px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+}
+.stars{
+    display: flex;
+    gap: 10px;
+}
+.name{
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+}
+
+
+.startups{
+    width: 767px;
 }
