@@ -234,7 +234,6 @@ button p{
 
 
 
-
 .client{
     margin-top: 26px;
     width: 698px;
@@ -244,6 +243,7 @@ button p{
     line-height: 66px;
 }
 .vivamus{
+    position: relative;
     margin-top: 78px;
     display: flex;
     justify-content: space-between;
@@ -287,10 +287,65 @@ button p{
 }
 .joggr p{
     margin-top: 23px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 28px;
     font-weight: 400;
 }
 .joggr a i{
     transform: rotate(-45deg);
 }
+.otsuka{
+    width: 620px;
+}
+.otsuka p{
+    width: 459px;
+    margin-top: 23px;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.otsuka a i{
+    transform: rotate(-45deg);
+}
+.origin{
+    width: 512px;
+}
+.origin p{
+    width: 500px;
+    margin-top: 23px;
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.origin a i{
+    transform: rotate(-45deg);
+}
+
+.all-pr{
+    cursor: pointer;
+    position: absolute;
+    left: 768px;
+    top: 725px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    background-color: #4543E8;
+}
+.all-pr p{
+    width: 81px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.all-pr:hover p{
+    transform: scale(1.2);
+}
+
+
