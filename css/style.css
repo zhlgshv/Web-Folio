@@ -539,19 +539,48 @@ main{
     text-align: center;
 }
 .comms{
+    margin-top: 58px;
     display: flex;
     justify-content: space-between;
 }
 .stiv{
+    width: 576px;
+    padding: 40px 0 52px 40px;
     border-radius: 20px 20px 0 20px;
     background-color: #fff;
 }
-.stiv-stars{
-    padding: 40px 0 28px 40px;
-}
 .stiv h3{
+    margin-top: 28px;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+}
+.stiv .stivp{
+    width: 476px;
+    margin: 15px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.stiv-pr{
+    margin-top: 8px;
+    display: flex;
+}
+.stiv-nm{
+    margin-left: 24px;
+}
+.stiv-nm p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.stiv-nm span{
+    margin-top: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
 }
