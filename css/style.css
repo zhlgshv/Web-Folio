@@ -332,7 +332,7 @@ main{
     width: 512px;
 }
 .origin:hover img{
-    opacity: 80%;
+    opacity: 80%a;
 }
 .origin p{
     width: 500px;
