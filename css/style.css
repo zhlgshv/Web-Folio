@@ -11,6 +11,10 @@ a{
 }
 
 
+span{
+    display: block;
+}
+
 
 header{
     background-color: #010032;
@@ -515,12 +519,39 @@ main{
 .testi{
     background-color: #D8D8EB;
 }
+.testimonials{
+    padding-top: 120px;
+}
 .testimonials .wave{
+    width: 330px;
+    height: 24px;
+    margin: 0 auto;
     justify-content: center;
 }
 .testimonials h2{
+    padding-top: 26px;
+    width: 623px;
+    margin: 0 auto;
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 66px;
+    text-align: center;
+}
+.comms{
+    display: flex;
+    justify-content: space-between;
+}
+.stiv{
+    border-radius: 20px 20px 0 20px;
+    background-color: #fff;
+}
+.stiv-stars{
+    padding: 40px 0 28px 40px;
+}
+.stiv h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
 }
