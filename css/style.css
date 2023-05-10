@@ -327,7 +327,7 @@ main{
     width: 512px;
 }
 .origin:hover img{
-    opacity: 80%a;
+    opacity: 80%;
 }
 .origin p{
     width: 500px;
@@ -483,7 +483,6 @@ main{
     position: relative;
     margin-left: 119px;
     margin-top: 40px;
-    /* border: 1px solid #fff; */
 }
 .st-proj{
     margin-top: 115px;
