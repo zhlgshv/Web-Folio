@@ -260,6 +260,9 @@ main{
 .maize{
     width: 510px;
 }
+.maize:hover img{
+    opacity: 80%;
+}
 .maize p{
     width: 500px;
     margin-top: 23px;
@@ -279,6 +282,9 @@ main{
 .datadash{
     width: 620px;
 }
+.datadash:hover img{
+    opacity: 80%;
+}
 .datadash p{
     width: 500px;   
     margin-top: 23px;
@@ -294,6 +300,9 @@ main{
     margin-left: 390px;
     width: 740px;
 }
+.joggr:hover img{
+    opacity: 80%;
+}
 .joggr p{
     margin-top: 23px;
     font-size: 16px;
@@ -305,6 +314,9 @@ main{
 }
 .otsuka{
     width: 620px;
+}
+.otsuka:hover img{
+    opacity: 80%;
 }
 .otsuka p{
     width: 459px;
@@ -318,6 +330,9 @@ main{
 }
 .origin{
     width: 512px;
+}
+.origin:hover img{
+    opacity: 80%;
 }
 .origin p{
     width: 500px;
@@ -354,7 +369,8 @@ main{
     transition: .5s;
 }
 .all-pr:hover p{
-    transform: scale(1.2);
+    transform: scale(1.05);
+    text-shadow: rgba(0, 0, 0, 1) 2px 20px 20px;
 }
 
 
@@ -485,6 +501,11 @@ main{
     border: 2px solid #fff;
     border-radius: 32px;
     background-color: #fff;
+    transition: .5s;
+}
+.st-proj:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px;
 }
 .st-proj i{
     font-size: 20px;
@@ -549,6 +570,11 @@ main{
     padding: 40px 0 52px 40px;
     border-radius: 20px 20px 0 20px;
     background-color: #fff;
+    transition: .5s;
+}
+.stiv:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 .stiv h3{
     margin-top: 28px;
@@ -601,4 +627,12 @@ main{
     border: none;
     color: #4543E8;
     background: transparent;
+    transition: .5s;
+    border-radius: 4px;
+}
+.next-pg button:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
