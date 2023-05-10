@@ -507,5 +507,20 @@ main{
 .st-wave img:nth-child(2){
     margin-left: 49px;
     top: 26px;
-    
+}
+
+
+
+
+.testi{
+    background-color: #D8D8EB;
+}
+.testimonials .wave{
+    justify-content: center;
+}
+.testimonials h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
 }
