@@ -467,9 +467,11 @@ main{
 .end-wave{
     position: relative;
     margin-left: 119px;
+    margin-top: 40px;
+    /* border: 1px solid #fff; */
 }
 .st-proj{
-    margin-top: 155px;
+    margin-top: 115px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -500,10 +502,10 @@ main{
     justify-content: end;
 }
 .st-wave img{
-    margin: 13px 0;
-
+    position: absolute;
 }
 .st-wave img:nth-child(2){
     margin-left: 49px;
+    top: 26px;
     
 }
