@@ -136,8 +136,13 @@ button p{
 
 
 
+main{
+    background: #E5E5E5;
+}
+
+
 .about{
-    margin-top: 146px;
+    padding-top: 146px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 182px;
@@ -359,10 +364,11 @@ button p{
 .services{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 144px;
+    padding: 144px 0;
     color: #fff;
 }
 .services h2{
+    margin-top: 22px;
     width: 352px;
     font-style: normal;
     font-weight: 400;
@@ -372,13 +378,14 @@ button p{
 .serv-head{
     width: 420px;
     height: 283px;
-    border: 1px solid #fff;
+}
+.serv-head .wave{
+    color: #fff;
 }
 .branding{
     margin-left: 119px;
     width: 290px;
     height: 283px;
-    border: 1px solid #fff;
 }
 .branding img{
     margin: 27px 7px;
@@ -399,7 +406,6 @@ button p{
     margin-left: 119px;
     width: 290px;
     height: 283px;
-    border: 1px solid #fff;
 }
 .packaging img{
     margin: 27px 7px;
@@ -421,7 +427,6 @@ button p{
     margin-left: 130px;
     width: 290px;
     height: 283px;
-    border: 1px solid #fff;
 }
 .memora img{
     margin: 27px 7px;
@@ -443,7 +448,6 @@ button p{
     margin-left: 119px;
     width: 290px;
     height: 283px;
-    border: 1px solid #fff;
 }
 .vsaid img{
     margin: 27px 7px;
@@ -476,7 +480,18 @@ button p{
     border-radius: 32px;
     background-color: #fff;
 }
+.st-proj i{
+    font-size: 20px;
+    opacity: 0;
+    transition: .5s;
+    transform: scale(0.5);
+}
+.st-proj:hover i{
+    transform: translateX(25px) scale(1);
+    opacity: 100%;
+}
 .st-wave{
+    margin-top: 54px;
     position: absolute;
     left: 140px;
     width: 168px;
