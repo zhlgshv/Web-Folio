@@ -357,12 +357,138 @@ button p{
     background-color: #010032;
 }
 .services{
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 144px;
     color: #fff;
 }
 .services h2{
+    width: 352px;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 54px;
+}
+.serv-head{
+    width: 420px;
+    height: 283px;
+    border: 1px solid #fff;
+}
+.branding{
+    margin-left: 119px;
+    width: 290px;
+    height: 283px;
+    border: 1px solid #fff;
+}
+.branding img{
+    margin: 27px 7px;
+}
+.branding h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.branding p{
+    margin: 23px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.packaging{
+    margin-left: 119px;
+    width: 290px;
+    height: 283px;
+    border: 1px solid #fff;
+}
+.packaging img{
+    margin: 27px 7px;
+}
+.packaging h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.packaging p{
+    margin: 23px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.memora{
+    margin-top: 40px;
+    margin-left: 130px;
+    width: 290px;
+    height: 283px;
+    border: 1px solid #fff;
+}
+.memora img{
+    margin: 27px 7px;
+}
+.memora h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.memora p{
+    margin: 23px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.vsaid{
+    margin-top: 40px;
+    margin-left: 119px;
+    width: 290px;
+    height: 283px;
+    border: 1px solid #fff;
+}
+.vsaid img{
+    margin: 27px 7px;
+}
+.vsaid h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.vsaid p{
+    margin: 23px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.end-wave{
+    position: relative;
+    margin-left: 119px;
+}
+.st-proj{
+    margin-top: 155px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 272px;
+    height: 69px;
+    border: 2px solid #fff;
+    border-radius: 32px;
+    background-color: #fff;
+}
+.st-wave{
+    position: absolute;
+    left: 140px;
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.st-wave img{
+    margin: 13px 0;
+
+}
+.st-wave img:nth-child(2){
+    margin-left: 49px;
+    
 }
