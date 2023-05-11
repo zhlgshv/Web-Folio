@@ -39,6 +39,11 @@ nav .container{
 .menu-link{
     color: #fff;
     margin: 0 20px;
+    transition: .5s;
+}
+.menu-link:hover{
+    text-shadow: rgba(255, 255, 255,1) 0px 0px 20px;
+    transform: scale(1.05);
 }
 
 
@@ -95,11 +100,17 @@ nav .container{
     line-height: 34px;
 }
 .impact-text button{
+    cursor: pointer;
     padding: 21px 42px;
     display: flex;
     gap: 23px;
     align-items: center;
     border-radius: 32px;
+    transition: .5s;
+}
+.impact-text button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px;
 }
 button p{
     font-style: normal;
@@ -108,11 +119,22 @@ button p{
     line-height: 25px;
     color: #000;
 }
+button .fa-envelope{
+    font-size: 18px;
+}
 .cup{
     margin-top: 100px;
     display: flex;
     align-items: center;
     gap: 24px;
+}
+.cup .trophy{
+    cursor: pointer;
+    font-size: 50px;
+    transition: .5s;
+}
+.cup:hover .trophy{
+    transform: scale(1.2);
 }
 .cup-text p{
     padding-bottom: 7px;
@@ -498,7 +520,7 @@ main{
     transition: .5s;
 }
 .st-proj:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
     box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px;
 }
 .st-proj i{
