@@ -871,3 +871,64 @@ main{
 .viewall:hover{
     border-bottom: 1px solid;
 }
+
+
+.blog{
+    padding-bottom: 120px;
+}
+.tech{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tech h2{
+    font-family: 'Space Grotesk', sans-serif;
+    width: 631px;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.tech button{
+    width: 274px;
+    height: 65px;
+    border-radius: 32px;
+    border: none;
+    background-color: #4543E8;
+    color: #fff;
+}
+.posts{
+    margin: 48px 0;
+    display: flex;
+}
+.post-com{
+    margin-left: 40px;
+}
+.post-com a{
+    position: relative;
+    color: #4543E8;
+    display: flex;
+    justify-content: space-between;
+}
+.post-com a button{
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    left: 780px;
+    background: transparent;
+    border: none;
+    color: #4543E8;
+}
+.post-com h3{
+    width: 530px;
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.post-com .viv{
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
