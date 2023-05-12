@@ -112,14 +112,14 @@ nav .container{
     transform: scale(1.05);
     box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px;
 }
-button p{
+.impact-text button p{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #000;
 }
-button .fa-envelope{
+.impact-text button .fa-envelope{
     font-size: 18px;
 }
 .cup{
@@ -806,6 +806,10 @@ main{
 
 
 
+.shop{
+    padding-bottom: 130px;
+    text-align: center;
+}
 .shop .wave{
     padding: 10px 0;
     position: relative;
@@ -839,4 +843,31 @@ main{
 }
 .shop .wave:hover a{
     transform: translateX(0px);
+}
+.shop h2{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+}
+.products{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.product{
+    text-align: start;
+}
+.product p{
+    margin-top: 32px;
+}
+.product span{
+    margin-top: 6px;
+}
+
+.shop .viewall{
+    border: none;
+}
+.viewall:hover{
+    border-bottom: 1px solid;
 }
