@@ -866,7 +866,9 @@ main{
 }
 
 .shop .viewall{
+    margin-top: 82px;
     border: none;
+    background: transparent;
 }
 .viewall:hover{
     border-bottom: 1px solid;
@@ -931,4 +933,25 @@ main{
     font-weight: 400;
     font-size: 12px;
     line-height: 28px;
+}
+
+
+.wa{
+    background-color: #4543E8;
+    background-image: url(/img/IMAGE\ \(26\).png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+}
+.on-work{
+    padding-top: 104px;
+    padding-bottom: 135px;
+}
+.w p{
+    margin: 23px 0;
+}
+.w button{
+    margin-top: 21px;
+    margin-bottom: 9px;
+    border: none;
 }
