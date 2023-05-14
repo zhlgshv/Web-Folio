@@ -944,13 +944,29 @@ main{
     
 }
 .on-work{
+    display: flex;
+    justify-content: center;
     padding-top: 104px;
     padding-bottom: 135px;
+}
+.w{
+    text-align: center;
 }
 .w p{
     margin: 23px 0;
 }
 .w button{
+    margin-top: 21px;
+    margin-bottom: 9px;
+    border: none;
+}
+.a{
+    text-align: center;
+}
+.a p{
+    margin: 23px 0;
+}
+.a button{
     margin-top: 21px;
     margin-bottom: 9px;
     border: none;
