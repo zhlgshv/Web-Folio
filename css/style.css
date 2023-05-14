@@ -1003,6 +1003,9 @@ main{
 }
 .contact h2{
     margin-top: 24px;
+    line-height: 66px;
+    font-weight: 400;
+    transform: scale(2.5) translateX(280px);
 }
 .contact-box{
     margin-top: 125px;
@@ -1017,4 +1020,15 @@ main{
 }
 .contact-input{
     width: 460px;
+}
+.line{
+    margin-top: 75px;
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF33;
+}
+.powered-by{
+    padding: 38px 0;
+    display: flex;
+    justify-content: space-between;
 }
