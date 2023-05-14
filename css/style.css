@@ -944,12 +944,15 @@ main{
     
 }
 .on-work{
+    gap: 327px;
     display: flex;
     justify-content: center;
     padding-top: 104px;
     padding-bottom: 135px;
 }
-.w{
+.w{ 
+    color: #fff;
+    width: 393px;
     text-align: center;
 }
 .w p{
@@ -959,8 +962,16 @@ main{
     margin-top: 21px;
     margin-bottom: 9px;
     border: none;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+}
+.w button a{
+    color: #fff;
+    border-bottom: 1px solid transparent;
 }
 .a{
+    color: #fff;
+    width: 393px;
     text-align: center;
 }
 .a p{
@@ -970,4 +981,10 @@ main{
     margin-top: 21px;
     margin-bottom: 9px;
     border: none;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+}
+.a button a{
+    color: #fff;
+    border-bottom: 1px solid transparent;
 }
