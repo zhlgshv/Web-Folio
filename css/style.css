@@ -988,3 +988,33 @@ main{
     color: #fff;
     border-bottom: 1px solid transparent;
 }
+
+
+
+
+
+.ftsec{
+    background-color: #010032;
+}
+
+.contact{
+    padding-top: 96px;
+    color: #fff;
+}
+.contact h2{
+    margin-top: 24px;
+}
+.contact-box{
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-box a{
+    color: #fff;
+}
+.contact-box ul li{
+    margin-bottom: 15px;
+}
+.contact-input{
+    width: 460px;
+}
